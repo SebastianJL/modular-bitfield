@@ -468,7 +468,7 @@ pub trait Specifier {
     /// This is the type that is used for the getters and setters.
     type InOut;
 
-    /// Converts some bytes into the in-out type.
+    /// Converts some the in-out type into bytes.
     ///
     /// # Errors
     ///
